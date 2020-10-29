@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Group 34 - Register - Cybersecurity Capstone Project</title>
+	<meta name="author" content="Grupo 34 - Cybersecurity Capstone Project">
+	<link rel="shortcut icon" type="image/png" href="../resource/icon.ico">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Group 34 - Cybersecurity Capstone Project</h1>
+			<h3>Messaging System Web-Based</h3>
+		</div>
+	</header>
+	<div class="container">
+		<div class="main row">
+			<article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<form name="fm1" action="register.php" id="fm1" method="post" onSubmit="return valid_register()">
+					<div class="form-group">
+					<h1 class="h3 mb-3 font-weight-normal">Please input</h1>
+					<label for="vnuss" >User</label>
+					<input type="text" id="vnuss" class="form-control" placeholder="User" required="" autofocus="" aria-describedby="userHelp" name="vnuss">
+					<small id="userHelp" class="form-text text-muted">Please enter minimal 4 characters, just letter a-z / A - Z and numbers 0 - 9...</small>
+					<label for="vpass">Password</label>
+					<input type="password" id="vpass" class="form-control" placeholder="Password" required="" aria-describedby="passwordHelp" name="vpass">
+					<small id="passwordHelp" class="form-text text-muted">Please Input Usable Secure Password, two or more non common word and minimal 8 character lenght, that easy to remember,</small>
+					<small id="passwordHelp" class="form-text text-muted">separate by spaces or special characters, example chabadabara_m1mus1c</small>
+					<small id="passwordHelp" class="form-text text-muted">We'll never share your password with anyone else ...</small><br><br>
+					<button class="btn btn-lg btn-primary btn-block" type="button" onclick="valid_register()">Register</button><BR><BR>					
+					</div>
+				</form>
+				<a href="../index.html"><button class="btn btn-primary" onclick=""><img src="../resource/homicon.png" alt="HOME" width="40" height="40">&nbspHOME</button></a>
+			</article>
+			<aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+			<p>
+				<h3> Cybersecurity Specialization</h3>
+				The Cybersecurity Specialization covers the fundamental concepts underlying the construction of secure systems, from the hardware to the software to the human-computer interface, with the use of cryptography to secure interactions. These concepts are illustrated with examples drawn from modern practice, and augmented with hands-on exercises involving relevant tools and techniques. Successful participants will develop a way of thinking that is security-oriented, better understanding how to think about adversaries and how to build systems that defend against them...</p>
+			</aside>
+		</div>
+		<div class="row">
+			<h3>Coursera Specialty Program</h3>
+			<p>A Coursera specialty program is a set of courses that help you master a skill. To get started, enroll in the specialized program directly or take a look at their courses and choose one you would like to start with. By subscribing to a course that is part of a specialized program, you will automatically be subscribed to the full specialized program. You can complete just one course - you can pause your learning or cancel your subscription at any time...</p>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<h4>Grpo 34 - Cybersecurity Capstone Project</h4>
+			<h5>@ October - 2020</h5>
+		</div>
+	</footer>
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/all_validate.js"></script>
+	<script type="text/javascript" src="../js/md5.js"></script>
+</body>
+</html>
